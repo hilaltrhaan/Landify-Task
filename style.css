@@ -40,7 +40,7 @@
    background-position: 0% 90%, 0% 103.5%, 98% 68%, 100% 81%,100% 83%;
 }
 .turquoise{
-   position: absolute;
+ position: absolute;
   top:71%;
   left:60%;
   filter: blur(33px);
@@ -149,6 +149,7 @@ line-height: 24px;
     font-weight: 600;
 }
 .rightContainer{
+  
     display: flex;
     justify-content: center;
     width: 488px;
@@ -470,10 +471,6 @@ margin: 32px;
     width: 176px;
     height: 152px;
 }
-
-
-
-
 
 
 
