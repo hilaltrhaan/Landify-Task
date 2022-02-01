@@ -119,9 +119,8 @@
 .buttons{
 display: flex;
 flex-direction: row;
-align-items: center;
-justify-content: space-between;
-width: 333px;
+justify-content:space-between;
+width: 290px;
 height: 56px;
 
 }
@@ -360,7 +359,6 @@ height: 748px;
     height: 184px;
     margin-left: 32px;
 }
-
 .f{
     display: flex;
     flex-direction: column;

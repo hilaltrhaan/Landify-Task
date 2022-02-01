@@ -1,5 +1,18 @@
 /*** TABLET RESPONSİVE CSS ***/
 
+@import url( 'https://fonts.googleapis.com/css2?family=Inter:wght@600,700,400,800&display=swap%27%27');
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Inter',sans-serif;
+    color: #111827;
+
+}
+
 @media(max-width:769px){
     .link{
         display: none;
@@ -192,7 +205,6 @@ line-height: 28px;
    width: 688px;
    height: 632px;
    flex-wrap: wrap;
-   
    margin-bottom: -100px;
  }
 .row1{
@@ -260,5 +272,133 @@ line-height: 28px;
     }
 }
 
+@media(max-width:376px){
+.app{
+    display: none;}
+.frame{
+  height:4833px;}
+.hero{
+  height: 1200px;
+}
+.bg{
+ height:955px;
+ background-image: url('images/Mobile/Left\ Band\ 2.svg'),url('images/Mobile/Left\ Band\ 1.svg'),url('images/Mobile/Right\ Band\ 2.svg'),url('images/Mobile/Right\ Band\ 3.svg');
+ background-repeat: no-repeat;
+ background-position: 0% 100% , 0% 90%,100% 79%, 100% 80%;
+
+}
+.title{
+font-size: 36px;}
+.subtitle{
+font-size: 18px;}
+.rightContainer{
+margin-top: 100px;
+margin-left: -23px;
+}
+.logo-clouds{
+        width: 375px;
+        height: 228px;
+    }
+    .logo-container{
+        width: 90%;
+        height: 196px;
+    }
+    .logos{
+        width: 100%;
+        height: 146px;
+    }
+    .lg{
+        margin-right: 5px;
+        margin-left: 44px;
+    }
+    .lg2{
+        margin-left: 50px;
+        margin-right: 10px;
+    }
+    .features{
+      height: 1402px;
+      
+    }
+    .f-title{
+    font-size: 36px;
+    width: 300px;
+    }
+    .f-subtitle{
+    font-size: 18px;
+    height: 112px;
+    width: 335px;
+
+    }
+  .features-container{
+   height: 1248px;
+   width: 335px;
+   margin-left: 20px;
+ }
+ .box{
+   margin-top: 35px;
+ }
+ .testimonial{
+   height: 1456px;
+ }
+ .testimonial-title{
+ width: 80%;
+ font-size: 25px;
+ margin-top: 0px;
+ }
+ .testimonial-subtitle{
+   margin-top:40px;
+   font-size: 16px;
+ }
+ .item1{
+height: 368px;
+width: 335px;
+left: 15px;
+top: 320px;
+border-radius: 8px;
 
 
+ }
+ .item2{
+ height: 368px;
+width: 335px;
+left: 15px;
+top: 635px;
+border-radius: 8px;
+
+
+ }
+ .item3{
+height: 368px;
+width: 335px;
+left: 15px;
+top: 1020px;
+border-radius: 8px;
+
+
+ }
+ .text{
+height: 168px;
+width: 239px;
+left: 0px;
+top: 0px;
+font-size: 16px;
+
+ }
+ .person{
+   margin-top: 40px;
+ }
+ .footer{
+ height: 548px;
+ 
+ }
+ .footer-container{
+   display: flex;
+   flex-wrap: wrap;
+ }
+ .footer-img{
+   margin-top: 80px;
+ }
+ 
+
+
+}
